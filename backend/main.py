@@ -1,7 +1,7 @@
 from fastapi import FastAPI;
 from nba_api.stats import static
 from nba_api.stats.endpoints import PlayerCareerStats
-from nba_api.stats.static.players import find_players_by_full_name
+from nba_api.stats.endpoints import PlayerCareerStats as pcs
 import pandas as pd
 
 app = FastAPI();
