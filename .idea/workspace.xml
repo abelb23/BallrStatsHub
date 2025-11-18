@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8bfa74-1d3b-4d3f-96e2-3b6b5df84c97" name="Changes" comment="searched player functions and career totals functions finished">
-      <change afterPath="$PROJECT_DIR$/backend/APIRequests.py" afterDir="false" />
+    <list default="true" id="3c8bfa74-1d3b-4d3f-96e2-3b6b5df84c97" name="Changes" comment="refactored file structure">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/GetMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/GetMethods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <updated>1762157154523</updated>
       <workItem from="1762157155678" duration="7231000" />
       <workItem from="1762848020625" duration="4464000" />
-      <workItem from="1763018061593" duration="15966000" />
+      <workItem from="1763018061593" duration="17699000" />
     </task>
     <task id="LOCAL-00001" summary="Created ppg function">
       <option name="closed" value="true" />
@@ -113,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763122349218</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactored file structure">
+      <option name="closed" value="true" />
+      <created>1763460462949</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763460462949</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +139,8 @@
     <MESSAGE value="Created ppg function" />
     <MESSAGE value="create list return functions" />
     <MESSAGE value="searched player functions and career totals functions finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="searched player functions and career totals functions finished" />
+    <MESSAGE value="refactored file structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored file structure" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BallrStatsHub$main.coverage" NAME="main Coverage Results" MODIFIED="1762852515737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/backend" />
