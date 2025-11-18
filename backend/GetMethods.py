@@ -1,12 +1,11 @@
-from fastapi import FastAPI
 from nba_api.stats import static
 from nba_api.stats import endpoints as end
 from nba_api.stats.static import players as pcs
 import pandas as pd
 
-app = FastAPI()
 
-@app.get("/search")
+
+
 def getSearchedPlayers(name: str):
     names = pcs.get_players()
     playerList = {}
@@ -16,7 +15,7 @@ def getSearchedPlayers(name: str):
 
     return playerList
 
-@app.get("/stats")
+
 def getCareerTotals(id: int):
     frame = end.PlayerCareerStats(player_id=id).get_data_frames()[0]
 
@@ -26,7 +25,9 @@ def getCareerTotals(id: int):
 
     return stats
 
-
+def getCareerSeasons(id: int):
+    frame = end.PlayerCareerStats(player_id=id).get_data_frames()[0]
+    return frame["SEASON_ID"].unique().tolist()
 
 
 
