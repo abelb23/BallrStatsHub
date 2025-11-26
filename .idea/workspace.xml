@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c8bfa74-1d3b-4d3f-96e2-3b6b5df84c97" name="Changes" comment="refactored file structure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3c8bfa74-1d3b-4d3f-96e2-3b6b5df84c97" name="Changes" comment="refactored file structure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +82,7 @@
       <updated>1762157154523</updated>
       <workItem from="1762157155678" duration="7231000" />
       <workItem from="1762848020625" duration="4464000" />
-      <workItem from="1763018061593" duration="17699000" />
+      <workItem from="1763018061593" duration="18160000" />
     </task>
     <task id="LOCAL-00001" summary="Created ppg function">
       <option name="closed" value="true" />
